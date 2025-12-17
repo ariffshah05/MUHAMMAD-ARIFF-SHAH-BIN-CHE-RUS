@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SKILL</title>
+
+<style>
+    body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+        color: #0f172a;
+
+        background: linear-gradient(
+            135deg,
+            #e0f2fe,
+            #bae6fd,
+            #93c5fd
+        );
+        background-attachment: fixed;
+    }
+
+    header, footer {
+        background: linear-gradient(to right, #1e3a8a, #2563eb);
+        color: white;
+        text-align: center;
+        padding: 15px;
+    }
+
+    header a {
+        color: #e0f2fe;
+        text-decoration: none;
+        font-size: 14px;
+        display: inline-block;
+        margin-top: 6px;
+    }
+
+    header a:hover {
+        text-decoration: underline;
+    }
+
+    section {
+        max-width: 1050px;
+        margin: 30px auto;
+        padding: 30px;
+        background-color: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(6px);
+        border-radius: 14px;
+        box-shadow: 0 10px 25px rgba(30, 58, 138, 0.15);
+    }
+
+    section h2 {
+        border-bottom: 2px solid #bfdbfe;
+        padding-bottom: 8px;
+        margin-bottom: 15px;
+        color: #1e3a8a;
+    }
+
+    section p,
+    section li {
+        color: #334155;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    .skill-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 22px;
+        margin-top: 20px;
+    }
+
+    .skill-box {
+        background-color: #f8fafc;
+        border-left: 6px solid #2563eb;
+        padding: 18px;
+        border-radius: 12px;
+        box-shadow: 0 6px 15px rgba(30, 58, 138, 0.12);
+        transition: transform 0.2s;
+    }
+
+    .skill-box:hover {
+        transform: translateY(-5px);
+    }
+
+    .skill-box h3 {
+        margin-top: 0;
+        color: #1e3a8a;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>MY SKILLS</h1>
+    <a href="personalwebsite.html">← Back</a>
+</header>
+
+<section>
+    <h2>Overview</h2>
+    <p>
+        As an <b>Information Management</b> student, I have developed a variety of technical,
+        organizational, and interpersonal skills that are essential for managing information
+        effectively in academic and professional environments.
+    </p>
+</section>
+
+<section>
+    <h2>My Skills</h2>
+    <div class="skill-grid">
+        <div class="skill-box">
+            <h3>Problem Solving</h3>
+            <ul>
+                <li>Critical thinking</li>
+                <li>Attention to detail</li>
+                <li>Basic research skills</li>
+            </ul>
+        </div>
+
+        <div class="skill-box">
+            <h3>Computer & Software Skills</h3>
+            <ul>
+                <li>Microsoft Word, Excel, PowerPoint</li>
+                <li>Basic HTML & CSS</li>
+                <li>Database fundamentals</li>
+            </ul>
+        </div>
+
+        <div class="skill-box">
+            <h3>Information Technology</h3>
+            <ul>
+                <li>Data entry and data accuracy</li>
+                <li>Information systems basics</li>
+                <li>Digital information handling</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Personal Strengths</h2>
+    <ul>
+        <li>Responsible and disciplined</li>
+        <li>Quick learner</li>
+        <li>Adaptable to new systems and technologies</li>
+        <li>Able to work independently and in teams</li>
+    </ul>
+</section>
+
+<footer>
+    &copy; MUHAMMAD ARIFF SHAH
+</footer>
+
+</body>
+</html>

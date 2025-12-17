@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOME : INDEX</title>
+
+<style>
+    body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #0f172a;
+
+        background: linear-gradient(
+            135deg,
+            #e0f2fe,
+            #bae6fd,
+            #93c5fd
+        );
+        background-attachment: fixed;
+    }
+
+    header {
+        background: linear-gradient(to right, #1e3a8a, #2563eb);
+        color: #ffffff;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+   nav {
+    background: linear-gradient(
+        to bottom,
+        #3b82f6,   /* soft blue */
+        #60a5fa    /* lighter blue */
+    );
+    width: 200px;
+    float: left;
+    padding: 20px;
+    min-height: 100vh;
+    border-right: 1px solid #93c5fd;
+}
+
+nav a {
+    display: block;
+    color: #0f172a;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: background 0.2s, color 0.2s;
+}
+
+nav a:hover {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+    section {
+        margin-left: 220px;
+        padding: 40px 25px;
+        text-align: center;
+        min-height: 100vh;
+
+        background-color: rgba(255, 255, 255, 0.75);
+        backdrop-filter: blur(6px);
+    }
+
+    section h1 {
+        color: #1e3a8a;
+        margin-bottom: 15px;
+    }
+
+    section p {
+        font-size: 16px;
+        color: #334155;
+    }
+
+    section img {
+        margin-top: 25px;
+        border-radius: 14px;
+        max-width: 100%;
+        height: auto;
+        box-shadow: 0 10px 25px rgba(30, 58, 138, 0.25);
+    }
+
+    footer {
+        background-color: #1e3a8a;
+        color: #ffffff;
+        text-align: center;
+        padding: 12px 0;
+        clear: both;
+    }
+
+    .social img {
+        margin-right: 10px;
+        transition: transform 0.2s;
+        border-radius: 50%;
+        padding: 6px;
+        background-color: #ffffff;
+    }
+
+    .social img:hover {
+        transform: scale(1.15);
+        background-color: #2563eb;
+    }
+
+    audio {
+        display: block;
+        margin: 25px auto;
+        width: 260px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>MY RESUME : HOME</h1>
+</header>
+
+<nav>
+    <a href="aboutme.html" target="_blank">ABOUT ME</a>
+    <a href="education.html" target="_blank">EDUCATION</a>
+    <a href="experience.html" target="_blank">EXPERIENCE</a>
+    <a href="skill.html" target="_blank">SKILL</a>
+    <a href="hobby.html" target="_blank">HOBBY</a>
+
+    <h3>Social Media</h3>
+    <div class="social">
+        <a href="https://www.facebook.com/rfshcr/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg"
+                 width="38" height="38" alt="Facebook">
+        </a>
+
+        <a href="https://www.instagram.com/rfshcr/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                 width="38" height="38" alt="Instagram">
+        </a>
+    </div>
+</nav>
+
+<section>
+    <h1>Welcome to My Portfolio</h1>
+    <p>My name is <strong>MUHAMMAD ARIFF SHAH BIN CHE'RUS</strong>.</p>
+    <p>Feel free to explore and learn more about my life.</p>
+
+    <audio controls>
+        <source src="CYBL.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <img src="aku.jpg" width="480" alt="Profile Photo">
+</section>
+
+<footer>
+    &copy; 2025 MUHAMMAD ARIFF SHAH. All Rights Reserved.
+</footer>
+
+</body>
+</html>
+
+
